@@ -1,27 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-#home {
-  display: inline;
-  position: relative;
-  width: 30px;
-  z-index: 1;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#logo {
-  width: 50px;
-}
-.circle {
-  background-color: #f59e0b;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+  .tooltip-home {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-about {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-plans {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-download {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-contactus {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-logout {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
 }
 #profile {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
+  z-index: -1;
+}
+#circle {
+  background-color: #f59e0b;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  top: 50px;
+  left: 150px;
+}
+#avatar {
+  top: 70px;
+  left: 350px;
+}
+#edit-user {
+  left: 550px;
+  top: 70px;
+}
+label {
+  width: 120px;
+  display: inline-block;
+}
+#user-info {
+  left: 100px;
+  top: 400px;
 }

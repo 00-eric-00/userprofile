@@ -20,38 +20,50 @@ function Home() {
               src="/img/Arcana_logo.png"
               alt=""
               id="logo"
-              className="flex justify-center"
+              className="text-center"
             />
           </a>
         </div>
         <div className="text-black">
           <a href="#">
-            <HomeIcon className="h-10 w-10 text-black " />
+            <HomeIcon
+              className="h-10 w-10 text-black text-center"
+              title="Home"
+            />
           </a>
         </div>
         <div className="text-black">
           <a href="#">
-            <InformationCircleIcon className="h-10 w-10 text-black " />
+            <InformationCircleIcon
+              className="h-10 w-10 text-black "
+              title="About"
+            />
           </a>
         </div>
         <div className="text-black">
           <a href="#" className="text-2xl">
-            <BookOpenIcon className="h-10 w-10 text-black " />
+            <BookOpenIcon className="h-10 w-10 text-black " title="Plans" />
           </a>
         </div>
         <div className="text-black">
           <a href="#" className="text-2xl">
-            <CloudArrowDownIcon className="h-10 w-10 text-black " />
+            <CloudArrowDownIcon
+              className="h-10 w-10 text-black "
+              title="Download"
+            />
           </a>
         </div>
         <div className="text-black">
           <a href="#" className="text-2xl">
-            <ChatBubbleOvalLeftEllipsisIcon className="h-10 w-10 text-black " />
+            <ChatBubbleOvalLeftEllipsisIcon
+              className="h-10 w-10 text-black "
+              title="Contact Us"
+            />
           </a>
         </div>
         <div className="text-black">
           <a href="#" className="text-2xl">
-            <UserIcon className="h-10 w-10 text-black " />
+            <UserIcon className="h-10 w-10 text-black" title="Logout" />
           </a>
         </div>
       </div>

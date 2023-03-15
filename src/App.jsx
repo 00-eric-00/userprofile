@@ -1,7 +1,10 @@
-import "./views/Sidenav";
-import "./components/Test";
+import Sidenav from "./views/Sidenav";
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="flex">
+      <Sidenav />
+    </div>
+  );
 }
 
 export default App;
