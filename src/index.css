@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  /* side-bar */
   .sidebar-icon {
     @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
@@ -27,12 +28,37 @@
   .tooltip-logout {
     @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
+  /* botbar */
+  .botbar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-1 mx-0.5 shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+  .tooltip-bot-home {
+    @apply absolute w-auto p-2 min-w-max  rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-bottom;
+  }
+  .tooltip-bot-user-profile {
+    @apply absolute w-auto p-2 min-w-max rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-bot-about {
+    @apply absolute w-auto p-2 min-w-max rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-bot-plans {
+    @apply absolute w-auto p-2 min-w-max rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-bot-download {
+    @apply absolute w-auto p-2 min-w-max rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-bot-contactus {
+    @apply absolute w-auto p-2 min-w-max rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+  .tooltip-bot-logout {
+    @apply absolute w-auto p-2 min-w-max  rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
 }
 #profile {
   z-index: -1;
 }
 #circle {
-  background-color: #f59e0b;
+  background-color: #f0ad4e;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -58,3 +84,39 @@ label {
 * {
   font-family: montserrat, sans-serif;
 }
+.tooltip-bot-about {
+  bottom: 60px;
+  left: 137px;
+}
+.tooltip-bot-home {
+  bottom: 60px;
+  left: 50px;
+}
+.tooltip-bot-user-profile {
+  bottom: 60px;
+  left: 77px;
+}
+.tooltip-bot-plans {
+  bottom: 60px;
+  left: 182px;
+}
+.tooltip-bot-download {
+  bottom: 60px;
+  left: 213px;
+}
+.tooltip-bot-contactus {
+  bottom: 60px;
+  left: 255px;
+}
+.tooltip-bot-logout {
+  bottom: 60px;
+  left: 310px;
+}
+
+/* #F0AD4E */
+/* #f59e0b */
+/* @apply relative flex items-center justify-center h-12 w-12 mt-1 mx-1 shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+} */
+/* .sidebar-icon {
+  @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+} */
