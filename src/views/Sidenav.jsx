@@ -7,7 +7,7 @@ import { CloudArrowDownIcon } from "@heroicons/react/24/outline";
 import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 import { UserIcon } from "@heroicons/react/24/outline";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
-import { PencilIcon } from "@heroicons/react/24/outline";
+
 function Sidenav() {
   return (
     <div>
@@ -26,25 +26,27 @@ function Sidenav() {
           <li>
             <a href="#" className="group">
               <span className="tooltip-home group-hover:scale-100">Home</span>
-              <HomeIcon className="h-10 w-10   sidebar-icon" title="Home" />
+              <HomeIcon className="h-10 w-10   sidebar-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" className="group">
+              <span className="tooltip-user-profile group-hover:scale-100">
+                User Profile
+              </span>
+              <UserCircleIcon className="h-10 w-10  sidebar-icon" />
             </a>
           </li>
           <li>
             <a href="#" className="group">
               <span className="tooltip-about group-hover:scale-100">About</span>
-              <InformationCircleIcon
-                className="h-10 w-10   sidebar-icon"
-                title="About"
-              />
+              <InformationCircleIcon className="h-10 w-10   sidebar-icon" />
             </a>
           </li>
           <li>
             <a href="#" className="group">
               <span className="tooltip-plans group-hover:scale-100">Plans</span>
-              <BookOpenIcon
-                className="h-10 w-10   sidebar-icon"
-                title="Plans"
-              />
+              <BookOpenIcon className="h-10 w-10   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -52,10 +54,7 @@ function Sidenav() {
               <span className="tooltip-download group-hover:scale-100">
                 Download
               </span>
-              <CloudArrowDownIcon
-                className="h-10 w-10   sidebar-icon"
-                title="Download"
-              />
+              <CloudArrowDownIcon className="h-10 w-10   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -63,10 +62,7 @@ function Sidenav() {
               <span className="tooltip-contactus group-hover:scale-100">
                 Contact Us
               </span>
-              <ChatBubbleOvalLeftEllipsisIcon
-                className="h-10 w-10   sidebar-icon"
-                title="Contact Us"
-              />
+              <ChatBubbleOvalLeftEllipsisIcon className="h-10 w-10   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -74,7 +70,7 @@ function Sidenav() {
               <span className="tooltip-logout group-hover:scale-100">
                 Logout
               </span>
-              <UserIcon className="h-10 w-10  sidebar-icon" title="Logout" />
+              <UserIcon className="h-10 w-10  sidebar-icon" />
             </a>
           </li>
         </ul>
@@ -83,7 +79,7 @@ function Sidenav() {
         <UserCircleIcon className="fixed" id="circle" />
         <div className="fixed flex" id="avatar">
           <button
-            className="bg-primary px-2 rounded-xl text-lg text-secondary font-bold"
+            className="bg-amber-500 px-2 rounded-xl text-lg text-secondary font-bold"
             id="change-avatar"
           >
             Change Avatar
@@ -94,7 +90,7 @@ function Sidenav() {
             <div>
               <label
                 htmlFor="firstName"
-                className=" px-2 text-lg text-primary font-bold mb-4"
+                className=" px-2 text-lg text-amber-500 font-bold mb-4"
               >
                 First Name:
               </label>
@@ -108,7 +104,7 @@ function Sidenav() {
             <div>
               <label
                 htmlFor="lastName"
-                className=" px-2 text-lg text-primary font-bold mb-4"
+                className=" px-2 text-lg text-amber-500 font-bold mb-4"
               >
                 Last Name:
               </label>
@@ -122,7 +118,7 @@ function Sidenav() {
             <div>
               <label
                 htmlFor="email"
-                className=" px-2 text-lg text-primary font-bold mb-4"
+                className=" px-2 text-lg text-amber-500 font-bold mb-4"
               >
                 Email:
               </label>
@@ -136,7 +132,7 @@ function Sidenav() {
             <div>
               <label
                 htmlFor="password"
-                className=" px-2 text-lg text-primary font-bold mb-4"
+                className=" px-2 text-lg text-amber-500 font-bold mb-4"
               >
                 Password:
               </label>
@@ -150,7 +146,7 @@ function Sidenav() {
             <div>
               <button
                 type="submit"
-                className="bg-primary px-2 rounded-xl text-lg text-secondary font-bold"
+                className="bg-amber-500 px-2 rounded-xl text-lg text-secondary font-bold"
               >
                 Save
               </button>
@@ -158,14 +154,14 @@ function Sidenav() {
           </form>
         </div>
         <div id="user-info" className="fixed">
-          <div className="text-primary text-4xl pb-2">User Information</div>
-          <div className="text-primary text-2xl">
+          <div className="text-amber-500 text-4xl pb-2">User Information</div>
+          <div className="text-amber-500 text-2xl">
             First Name: <span id="user-fname">Juan</span>
           </div>
-          <div className="text-primary text-2xl">
+          <div className="text-amber-500 text-2xl">
             Last Name: <span id="user-lname">Luna</span>
           </div>
-          <div className="text-primary text-2xl">
+          <div className="text-amber-500 text-2xl">
             Email: <span id="user-email">juanluna@gmail.com</span>
           </div>
         </div>

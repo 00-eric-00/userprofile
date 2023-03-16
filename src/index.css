@@ -9,6 +9,9 @@
   .tooltip-home {
     @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
+  .tooltip-user-profile {
+    @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
   .tooltip-about {
     @apply absolute w-auto p-2 m-2 ml-3 min-w-max left-14 rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
@@ -33,8 +36,8 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  top: 50px;
-  left: 150px;
+  top: 70px;
+  left: 170px;
 }
 #avatar {
   top: 70px;
@@ -51,4 +54,7 @@ label {
 #user-info {
   left: 100px;
   top: 400px;
+}
+* {
+  font-family: montserrat, sans-serif;
 }
