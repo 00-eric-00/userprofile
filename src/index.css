@@ -30,7 +30,7 @@
   }
   /* botbar */
   .botbar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-1 mx-0.5 shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+    @apply relative flex items-center justify-center h-12 w-12 shadow-lg bg-secondary text-primary hover:bg-primary hover:text-secondary rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
   .tooltip-bot-home {
     @apply absolute w-auto p-2 min-w-max  rounded-md shadow-md text-primary bg-secondary text-xs font-bold transition-all duration-100 scale-0 origin-bottom;
@@ -84,33 +84,57 @@ label {
 * {
   font-family: montserrat, sans-serif;
 }
-.tooltip-bot-about {
-  bottom: 60px;
-  left: 137px;
+/* sidebar tooltip */
+.tooltip-home {
+  top: 135px;
 }
+.tooltip-user-profile {
+  top: 233px;
+}
+.tooltip-about {
+  top: 327px;
+}
+.tooltip-plans {
+  top: 423px;
+}
+.tooltip-download {
+  top: 518px;
+}
+.tooltip-contactus {
+  top: 616px;
+}
+.tooltip-logout {
+  top: 711px;
+}
+/* botbar tooltip */
 .tooltip-bot-home {
-  bottom: 60px;
-  left: 50px;
+  bottom: 70px;
+  left: 76px;
 }
 .tooltip-bot-user-profile {
-  bottom: 60px;
-  left: 77px;
+  bottom: 70px;
+  left: 99px;
 }
+.tooltip-bot-about {
+  bottom: 70px;
+  left: 155px;
+}
+
 .tooltip-bot-plans {
-  bottom: 60px;
-  left: 182px;
+  bottom: 70px;
+  left: 197px;
 }
 .tooltip-bot-download {
-  bottom: 60px;
-  left: 213px;
+  bottom: 70px;
+  left: 225px;
 }
 .tooltip-bot-contactus {
-  bottom: 60px;
-  left: 255px;
+  bottom: 70px;
+  left: 261px;
 }
 .tooltip-bot-logout {
-  bottom: 60px;
-  left: 310px;
+  bottom: 70px;
+  left: 312px;
 }
 
 /* #F0AD4E */

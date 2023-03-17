@@ -19,14 +19,14 @@ function Sidenav() {
                 src="/img/Arcana_logo.png"
                 alt=""
                 id="logo"
-                className="h-10 w-10   sidebar-icon group"
+                className="h-12 w-12 my-8 sidebar-icon group"
               />
             </a>
           </li>
           <li>
             <a href="#" className="group">
               <span className="tooltip-home group-hover:scale-100">Home</span>
-              <HomeIcon className="h-10 w-10   sidebar-icon" />
+              <HomeIcon className="h-8 w-8 my-16   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -34,19 +34,19 @@ function Sidenav() {
               <span className="tooltip-user-profile group-hover:scale-100">
                 User Profile
               </span>
-              <UserCircleIcon className="h-10 w-10  sidebar-icon" />
+              <UserCircleIcon className="h-8 w-8 my-16  sidebar-icon" />
             </a>
           </li>
           <li>
             <a href="#" className="group">
               <span className="tooltip-about group-hover:scale-100">About</span>
-              <InformationCircleIcon className="h-10 w-10   sidebar-icon" />
+              <InformationCircleIcon className="h-8 w-8 my-16   sidebar-icon" />
             </a>
           </li>
           <li>
             <a href="#" className="group">
               <span className="tooltip-plans group-hover:scale-100">Plans</span>
-              <BookOpenIcon className="h-10 w-10   sidebar-icon" />
+              <BookOpenIcon className="h-8 w-8 my-16   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -54,7 +54,7 @@ function Sidenav() {
               <span className="tooltip-download group-hover:scale-100">
                 Download
               </span>
-              <CloudArrowDownIcon className="h-10 w-10   sidebar-icon" />
+              <CloudArrowDownIcon className="h-8 w-8 my-16   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -62,7 +62,7 @@ function Sidenav() {
               <span className="tooltip-contactus group-hover:scale-100">
                 Contact Us
               </span>
-              <ChatBubbleOvalLeftEllipsisIcon className="h-10 w-10   sidebar-icon" />
+              <ChatBubbleOvalLeftEllipsisIcon className="h-8 w-8 my-16   sidebar-icon" />
             </a>
           </li>
           <li>
@@ -70,7 +70,7 @@ function Sidenav() {
               <span className="tooltip-logout group-hover:scale-100">
                 Logout
               </span>
-              <UserIcon className="h-10 w-10  sidebar-icon" />
+              <UserIcon className="h-8 w-8 my-16  sidebar-icon" />
             </a>
           </li>
         </ul>

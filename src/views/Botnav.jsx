@@ -12,15 +12,15 @@ function Botnav() {
   return (
     <div>
       <nav>
-        <div className="fixed bottom-0 left-0 h-12 w-screen sm:block md:hidden bg-secondary text-white shadow-lg">
+        <div className="fixed bottom-0 left-0 h-16 w-screen sm:block md:hidden bg-secondary text-white shadow-lg">
           <ul className="flex flex-row">
             <li>
-              <a href="#" className="group botbar-icon">
+              <a href="#" className="group ">
                 <img
                   src="/img/Arcana_logo.png"
                   alt=""
                   id="logo"
-                  className="h-10 w-10 botbar-icon relative bottom-1.5"
+                  className="h-12 w-12 botbar-icon relative mt-2 mx-4"
                 />
               </a>
             </li>
@@ -29,7 +29,7 @@ function Botnav() {
                 <span className="tooltip-bot-home group-hover:scale-100">
                   Home
                 </span>
-                <HomeIcon className="h-10 w-10   botbar-icon" />
+                <HomeIcon className="h-8 w-8 mt-4 mx-1    botbar-icon" />
               </a>
             </li>
             <li>
@@ -37,7 +37,7 @@ function Botnav() {
                 <span className="tooltip-bot-user-profile group-hover:scale-100">
                   User Profile
                 </span>
-                <UserCircleIcon className="h-10 w-10  botbar-icon" />
+                <UserCircleIcon className="h-8 w-8 mt-4 mx-1   botbar-icon" />
               </a>
             </li>
             <li>
@@ -45,7 +45,7 @@ function Botnav() {
                 <span className="tooltip-bot-about group-hover:scale-100">
                   About
                 </span>
-                <InformationCircleIcon className="h-10 w-10   botbar-icon" />
+                <InformationCircleIcon className="h-8 w-8 mt-4 mx-1    botbar-icon" />
               </a>
             </li>
             <li>
@@ -53,7 +53,7 @@ function Botnav() {
                 <span className="tooltip-bot-plans group-hover:scale-100">
                   Plans
                 </span>
-                <BookOpenIcon className="h-10 w-10   botbar-icon" />
+                <BookOpenIcon className="h-8 w-8 mt-4 mx-1    botbar-icon" />
               </a>
             </li>
             <li>
@@ -61,7 +61,7 @@ function Botnav() {
                 <span className="tooltip-bot-download group-hover:scale-100">
                   Download
                 </span>
-                <CloudArrowDownIcon className="h-10 w-10   botbar-icon" />
+                <CloudArrowDownIcon className="h-8 w-8 mt-4 mx-1    botbar-icon" />
               </a>
             </li>
             <li>
@@ -69,7 +69,7 @@ function Botnav() {
                 <span className="tooltip-bot-contactus group-hover:scale-100">
                   Contact Us
                 </span>
-                <ChatBubbleOvalLeftEllipsisIcon className="h-10 w-10   botbar-icon" />
+                <ChatBubbleOvalLeftEllipsisIcon className="h-8 w-8 mt-4 mx-1    botbar-icon" />
               </a>
             </li>
             <li>
@@ -77,7 +77,7 @@ function Botnav() {
                 <span className="tooltip-bot-logout group-hover:scale-100">
                   Logout
                 </span>
-                <UserIcon className="h-10 w-10  botbar-icon" />
+                <UserIcon className="h-8 w-8 mt-4 mx-1   botbar-icon" />
               </a>
             </li>
           </ul>
